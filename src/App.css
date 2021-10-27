@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.product {
+  width: 300px;
+  padding: 20px;
+  height: 350px;
+  margin: 10px 0px;
+  background-color: azure;
+  text-align: center;
+  box-shadow: 1px 1px 4px 1px grey;
+}
+.product img {
+  width: 260px;
+  height: 200px;
+}
+.product h3 {
+  color: crimson;
+  font-weight: bolder;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px;
+  margin: 10px 30px;
+  align-items: center;
+  background-color: crimson;
+  position: sticky;
+  top: 0;
+}
+.heading {
+  text-align: center;
+  margin: 20px 0px;
+  background-color: gray;
+  font-size: 60px;
+}
+.select_filter {
+  display: flex;
+  align-items: center;
+}
+.select_filter select {
+  text-align: center;
+  width: 200px;
+  background-color: lightgray;
+  padding: 5px;
+}
